@@ -1,0 +1,21 @@
+module.exports = {
+  cook: require("./cook.c"),
+  dropdown: require("./dropdown.c"),
+  employer: require("./employer.c"),
+  payment: require("./payment.c"),
+  file: require("./file.c"),
+  plans: require("./plans.c"),
+  jobs: require("./jobs.c"),
+  events: require("./events.c"),
+  config: require("./config.c"),
+  test: require("./test.c"),
+  admin: require("./admin.c"),
+  support: require("./support.c"),
+  testimonial: require("./testimonial.c"),
+  faq: require("./faq.c"),
+  website: require("./website.c"),
+  chat: require("./chat.c"),
+  scripts: require("./scripts.c"),
+  helpchat: require("./helpchat.c"),
+  custom: require("./custom.c")
+}
