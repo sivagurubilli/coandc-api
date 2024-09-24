@@ -1,0 +1,60 @@
+<table>
+    <tbody>
+        <tr>
+            <td width="431">
+                <p>{{name}}</p>
+                <p>{{currentDesignation}}</p>
+            </td>
+        </tr>
+        <tr>
+            <td width="240">
+                <h3>Profile</h3>
+                <p>{{profile}}</p>
+                <h3>Contact</h3>
+                <p>PHONE:</p>
+                <p>{{mobile}}</p>
+                <p>EMAIL:</p>
+                <p><a href="mailto:{{email}}">{{email}}</a></p>
+                <h3>Cuisines</h3>
+                {{#each cuisines}}
+                <p>&middot; {{this}}</p>
+                {{/each}}
+                <h3>Hobbies</h3>
+                {{#each hobbies}}
+                <p>&middot; {{this}}</p>
+                {{/each}}
+                <p><strong>Awards and Recognition</strong></p>
+                {{#each awards}}
+                <p>&middot; {{this}}</p>
+                {{/each}}
+            </td>
+            <td width="431">
+                <h2>EDUCATION</h2>
+                <ul>
+                    {{#each education}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                <h2>WORK EXPERIENCE</h2>
+                {{#each workExperience}}
+                <p><strong>{{designation}}</strong> {{company}} {{location}} {{startDate}} &ndash; {{endDate}}</p>
+                <ul>
+                    {{#each responsibilities}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+                {{/each}}
+                <h2>SKILLS</h2>
+                {{#each skills}}
+                <p>&middot; {{this}}</p>
+                {{/each}}
+                <h2>Additional Information</h2>
+                <ul>
+                    {{#each additionalInfo}}
+                    <li>{{this}}</li>
+                    {{/each}}
+                </ul>
+            </td>
+        </tr>
+    </tbody>
+</table>

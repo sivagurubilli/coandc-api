@@ -1,0 +1,359 @@
+<!-- FONTS -->
+<link href='https://fonts.googleapis.com/css?family=Open+Sans:300,400,600' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Raleway:100' rel='stylesheet' type='text/css'>
+<link href='https://fonts.googleapis.com/css?family=Montserrat' rel='stylesheet' type='text/css'>
+<style>
+    * {
+        box-sizing: border-box;
+        transition: 0.35s ease;
+    }
+
+    .rela-block {
+        display: block;
+        position: relative;
+        margin: auto;
+
+    }
+
+    .rela-inline {
+        display: inline-block;
+        position: relative;
+        margin: auto;
+
+    }
+
+    .floated {
+        display: inline-block;
+        position: relative;
+        margin: false;
+        float: left;
+    }
+
+    .abs-left {
+        display: false;
+        position: absolute;
+        margin: false;
+        top: 0%;
+
+        right: false;
+        bottom: false;
+        transform: translate(-50%, -50%);
+        text-align: left;
+        width: 88%;
+    }
+
+    body {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        letter-spacing: 0px;
+        font-weight: 400;
+        line-height: 28px;
+        background: url("http://kingofwallpapers.com/leaves/leaves-016.jpg") right no-repeat;
+        background-size: cover;
+    }
+
+    body:before {
+        content: "";
+        display: false;
+        position: fixed;
+        margin: 0;
+        top: 0;
+        left: 0;
+        right: 0;
+        bottom: 0;
+        background-color: rgba(255, 255, 255, 0.92);
+    }
+
+    .caps {
+        text-transform: uppercase;
+    }
+
+    .justified {
+        text-align: justify;
+    }
+
+    p.light {
+        color: #777;
+    }
+
+    h2 {
+        font-family: 'Open Sans';
+        font-size: 30px;
+        letter-spacing: 5px;
+        font-weight: 600;
+        line-height: 40px;
+        color: #000;
+    }
+
+    h3 {
+        font-family: 'Open Sans';
+        font-size: 21px;
+        letter-spacing: 1px;
+        font-weight: 600;
+        line-height: 28px;
+        color: #000;
+    }
+
+    .page {
+        width: 100%;
+        max-width: 1200px;
+        margin: 0;
+        background-color: #fff;
+        box-shadow: none;
+    }
+
+    .top-bar {
+        height: 220px;
+        background-color: #97cdf8;
+        color: #000;
+        z-index: 2;
+
+        width: 80%;
+    }
+
+    .name {
+        display: false;
+        position: absolute;
+        margin: false;
+        top: false;
+        left: calc(350px + 5%);
+        right: 0;
+        bottom: 0;
+        height: 120px;
+        text-align: center;
+        font-family: 'Raleway';
+        font-size: 25px;
+        letter-spacing: 8px;
+        font-weight: 100;
+        line-height: 60px;
+    }
+
+    .name div {
+        width: 94%;
+    }
+
+    .side-bar {
+        display: false;
+        position: absolute;
+        margin: false;
+        top: 0px;
+        left: 0%;
+        right: false;
+        bottom: 0;
+        width: 350px;
+        background-color: #0073cf;
+        padding: 280px 30px 50px;
+    }
+
+    .mugshot {
+        display: false;
+        position: absolute;
+        margin: false;
+        top: 50px;
+        right: 70px;
+
+        bottom: false;
+        height: 180px;
+        width: 180px;
+    }
+
+    .mugshot .logo {
+        margin: -23px;
+    }
+
+    .logo {
+        display: false;
+        position: absolute;
+        margin: false;
+        top: 0;
+        left: 0;
+        right: false;
+        bottom: false;
+        z-index: 100;
+        margin: 0;
+        height: 200px;
+        width: 200px;
+
+    }
+
+    .logo .logo-svg {
+        height: 100%;
+        width: 100%;
+        stroke: #000;
+        cursor: pointer;
+    }
+
+    .logo .logo-text {
+        display: false;
+        position: absolute;
+        margin: false;
+        cursor: pointer;
+        font-family: "Montserrat";
+        font-size: 55px;
+        letter-spacing: 0px;
+        font-weight: 400;
+
+    }
+
+    .social {
+        padding-left: 60px;
+        margin-bottom: 20px;
+        cursor: pointer;
+    }
+
+    .social:before {
+        content: "";
+        display: false;
+        position: absolute;
+        margin: false;
+        top: -4px;
+        left: 10px;
+        right: false;
+        bottom: false;
+        height: 35px;
+        width: 35px;
+        background-size: cover !important;
+    }
+
+    .side-header {
+        font-family: 'Open Sans';
+        font-size: 18px;
+        letter-spacing: 4px;
+        font-weight: 600;
+        line-height: 28px;
+        margin: 10px auto 10px;
+        padding-bottom: 5px;
+        color: white;
+
+    }
+
+    .list-thing {
+        padding-left: 25px;
+        margin-bottom: 10px;
+    }
+
+    .content-container {
+        margin-right: 0;
+        width: calc(95% - 350px);
+        padding: 25px 0px 50px;
+    }
+
+    .content-container>* {
+        margin: 0 auto 25px;
+    }
+
+    .content-container>h3 {
+        margin: 0 auto 5px;
+    }
+
+    .content-container>p.long-margin {
+        margin: 0 auto 50px;
+    }
+
+    .title {
+        width: 80%;
+        text-align: center;
+    }
+
+    .separator {
+        width: 240px;
+        height: 2px;
+        background-color: #999;
+    }
+
+    .greyed {
+        background-color: #ddd;
+        width: 100%;
+        max-width: 580px;
+        text-align: center;
+        font-family: 'Open Sans';
+        font-size: 18px;
+        letter-spacing: 6px;
+        font-weight: 600;
+        line-height: 28px;
+    }
+
+    @media screen and (max-width: 1150px) {
+        .name {
+            color: #fff;
+            font-family: 'Raleway';
+            font-size: 38px;
+            letter-spacing: 6px;
+            font-weight: 100;
+            line-height: 48px;
+        }
+    }
+
+    p {
+        font-size: 14px;
+    }
+</style>
+<!-- PAGE STUFF -->
+<div class="rela-block page">
+    <div class="rela-block top-bar">
+        <div class="caps name">
+            <div class="abs-left">
+                <h3>{{name}}</h3>
+                <h4 style="color:white;">{{currentDesignation}}</h4>
+            </div>
+        </div>
+        <div class="mugshot">
+            <div class="logo">
+                <img src="https://life-octal.s3.ap-south-1.amazonaws.com/images/subject2.png">
+            </div>
+        </div>
+    </div>
+    <div class="side-bar">
+        <p class="rela-block caps side-header">Contact</p>
+        <p style="color:white">{{mobile}}</p>
+        <p style="color:white">{{address}}</p>
+        <p style="color:white">{{email}}</p><br>
+        <p class="rela-block caps side-header">Skills</p>
+        <p style="color:white">{{#each skills}}</p>
+        <p style="color:white">&middot; {{this}}</p>
+        <p style="color:white">{{/each}}</p>
+        <p class="rela-block caps side-header">Cuisines Known</p>
+        <p style="color:white">{{#each cuisines}}</p>
+        <p style="color:white">&middot; {{this}}</p>
+        <p style="color:white">{{/each}}</p>
+
+        <p class="rela-block caps side-header">Hobbies</p>
+        <p style="color:white">{{#each cuisines}}</p>
+        <p style="color:white">&middot; {{this}}</p>
+        <p style="color:white">{{/each}}</p>
+
+    </div>
+    <div class="rela-block content-container">
+
+
+        <div class="rela-block  "><u style="font-weight: bold; font-size:18px;">Career Objective:</u></div>
+        <p class="long-margin">{{profile}}</p>
+        <div class="rela-block "><u style="font-weight: bold; font-size:18px;">Work Experience:</u></div>
+        <p> {{#each workExperience}}</p>
+        <p><strong>{{designation}}</strong> {{company}} ({{startDate}} &ndash; {{endDate}}) </p>
+        <ul>
+            <p>{{#each responsibilities}}</p>
+            <li>
+                <p>{{this}}</p>
+            </li>
+            <p>{{/each}}</p>
+        </ul>
+        <p>{{/each}}</p>
+        <div class="rela-block"><u style="font-weight: bold; font-size:18px;">Education</u></div>
+        <ul>
+            <p>{{#each education}}</p>
+            <li>
+                <p>{{this}}</p>
+            </li>
+            <p>{{/each}}</p>
+        </ul>
+        <div class="rela-block"><u style="font-weight: bold; font-size:18px;">Additional Info</u></div>
+        <ul>
+            <p>{{#each additionalInfo}}</p>
+            <li>
+                <p>{{this}}</p>
+            </li>
+            <p>{{/each}}</p>
+        </ul>
+    </div>
+</div>
