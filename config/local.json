@@ -1,0 +1,63 @@
+{
+  "aws": {
+    "accessKeyId": "AKIA4SUD72TZLJF7EH6A",
+    "secretAccessKey": "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",
+    "region": "ap-south-1",
+    "bucket": "cookandchef",
+    "bucketUrl": "https://cookandchef.s3.ap-south-1.amazonaws.com/"
+  },
+  "companyDetails": {
+    "name": "***********************************",
+    "address": "***********************************",
+    "pinCode": "***********************************",
+    "phone": "***********************************",
+    "mail": "***********************************"
+  },
+  "projectDetails": {
+    "project": "***********************************",
+    "projectName": "***********************************",
+    "frontendUrl": "***********************************",
+    "backendUrl": "***********************************",
+    "supportEmail": "support@cookandchef.in",
+    "adminEmail": "support@cookandchef.in"
+  },
+  "smsApi": {
+    "api_key": "456b459e-613b-11ea-9fa5-0200cd936042",
+    "url": "https://2factor.in/API/V1/api_key/SMS/mobileNo/otp/templateId"
+  },
+  "whatsapp": {
+    "api_key": "OFJFVlNJOUdHaHV1WFB1RkF5d1NaeVdyS3J4QVE0cklBWVlTZC1iN2Rvazo=",
+    "url": "https://api.interakt.ai/v1/public/message/"
+  },
+  "mailer": {
+    "host": "smtppro.zoho.in",
+    "port": 465,
+    "username": "support@cookandchef.in",
+    "password": "Test@890"
+  },
+  "mongoDb": {
+    "username": "cookandchefindia",
+    "password": "IcferAaxXakxCbQb",
+    "dbUrl": "mongodb://127.0.0.1:27017/cnc"
+  },
+  "razorpay": {
+    "key_id": "rzp_test_Wd4HQU3VOXj0xB",
+    "key_secret": "oUW8QxZO79gb2fM61Gm3gXcA"
+  },
+  "firebase": {
+    "cert": {
+      "type": "service_account",
+      "project_id": "cookandchef-new",
+      "private_key_id": "7fad7964a25d449bd0b4c627fb8a0b0202c0c432",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvQIBADANBgkqhkiG9w0BAQEFAASCBKcwggSjAgEAAoIBAQDZ1rpGqTS9/lom\nqk+xgJZQCvigT/8tRwJpk2mZfp0N1IOX7+DsoVii7KIZ92U2m98VzA6uRtenuiaK\nx04mRdCEpvKE3mFqvDDzwIt/BXP4Mr4yf/Epz7fxSVYAms6X1WiOr6BAiPxRE93c\n1OOT2m0Zi0SwyoeDUClctF33Fr2YAIycHicoyHnn0l4faFUCHdrcn9/sJ7cYVrPU\nVifd8zoxr2ijV9xpMIBblw+MWrjbpZNkXvQZcyaTfnlr+BQF4FBJZxCXpVg91u2K\nu59b4bDIxi5XlCAIiM6JQXAg7dyKIlae5XvdjM6gv4bO8HbmgJeLQUbm7jAGRQrs\nubs9QoaRAgMBAAECggEAD1ALo72aMll8/ycirKYO1Y09NpEDrYGb1vhgncRriCuD\nnTxkpw2dHEVztvflL/uwqKjBnBjpE5EUy4BAwJT7bY+0ut1M+MKbfaRFH1vZRT2q\nkVndWySPArw2ekVnjKnDjKAmLNMpoA4RnvKCFYRu/d2Efxma1q1dsva6J40m16vf\nnaAyrLWqHoYVz02n34eL+w65a0i/K2AuwrYH+CvkzLO/T4uMTLer5Uabn+IOUVQr\nBhT+gE9b6ypb5u20ETyTDW2o/J7rFLzE6Tb0n31ljzghsl9gst/jxioBJIdLW+fw\neAMjy6F0wz03dScmcBv68RMpypcjg2r/0DioJ8dY7wKBgQD7N69YbuZAE1xFeGg2\nOik0EHGuwkeT0DTimUPz8vConTgyt0AiqUKqzuwwKEY1BxHVwHQGweivaBLPsj6L\nJhYfcIZoQ7b7OlKTcQHvgr9wQygYzEWnAkCTgzEmtHXto5TSJfphMBuDpue3ExLO\nYCt2GYDGnp9A6Q6bO5fOGJdwkwKBgQDd/F7cYgJfiGAI/0ZU+D2pA7q6mvWzj73l\nQp8iyDQJWH6CEGyugCoclsMuPEhB9YC+gZo55AdWFfbqrf5iup14Dzs7QcF/iEf6\nAMNyyhni1ZlwguuvPLnokurJvcxSaicjLDBwIOlZA9QDNTSVKa8asubJaEFoBW2a\npO1pH2X2ywKBgBri3MtUIyRcbhWpS03yb5J46BHSDSMOt3pA+PrU11jUar1Sy3Rq\nNQ5e0vxccxcdyJTd4g0PF74eH1VHOFZgHyICQwBJrv24QjoxcAmYLrDvHw14X0P+\ng7bF5a7ExZJHXZgYJHHeWjN+23HGgs6/kCc1l4iqVVT3HG8Us6yFCUAtAoGAWoTi\nmbNNjG8r2f9eSp+/ZQAkUJuHvWTL5oS4J5LDxVvUmmzgJHgWs/m2NVBXlq3phcWL\ngje91hi2yxOQO+ok9CQh3xP9N2f3Ebbl/BT1YU4Ad6SrPpXgqTnfi8xdWO34b5tB\nVTfWb3nkJjq36mtI//Ybrd1ZbnVoMDs4pDktdukCgYEA7QLu/3BHmilpqN+AeL6s\nBTWM255iCCZ6BUii9yqoh2iU9Hl0uMOIR6hF5hZE1jSs3ZHGM67RAnpCQwLkpssR\nYbqGxOJTrzkUfA0PlFnzBFK+AqmlPUkZwZV1t8nNjsfHJxBT5kqrhCzAEqJ6sQBD\nwenGcoQ+gZO7AgSvjwK0Tvs=\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-w248g@cookandchef-new.iam.gserviceaccount.com",
+      "client_id": "100792230183521370162",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-w248g%40cookandchef-new.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  },
+  "privateKey": "***********************************"
+}

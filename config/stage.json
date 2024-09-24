@@ -1,0 +1,67 @@
+{
+  "aws": {
+    "accessKeyId": "AKIA4SUD72TZLJF7EH6A",
+    "secretAccessKey": "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",
+    "region": "ap-south-1",
+    "bucket": "cookandchef",
+    "bucketUrl": "https://cookandchef.s3.ap-south-1.amazonaws.com/"
+  },
+  "companyDetails": {
+    "name": "***********************************",
+    "address": "***********************************",
+    "pinCode": "***********************************",
+    "phone": "***********************************",
+    "mail": "***********************************"
+  },
+  "projectDetails": {
+    "project": "***********************************",
+    "projectName": "***********************************",
+    "frontendUrl": "http://3.111.112.30:3001",
+    "backendUrl": "http://3.111.112.30:5001",
+    "supportEmail": "no-reply@cookandchef.in",
+    "adminEmail": "no-reply@cookandchef.in"
+  },
+  "smsApi": {
+    "api_key": "456b459e-613b-11ea-9fa5-0200cd936042",
+    "url": "https://2factor.in/API/V1/api_key/SMS/mobileNo/otp/templateId"
+  },
+  "whatsapp": {
+    "api_key": "OFJFVlNJOUdHaHV1WFB1RkF5d1NaeVdyS3J4QVE0cklBWVlTZC1iN2Rvazo=",
+    "url": "https://api.interakt.ai/v1/public/message/"
+  },
+  "mailer": {
+    "host": "smtp.zeptomail.in",
+    "port": 465,
+    "username": "emailapikey",
+    "password": "PHtE6r1eQ+3j3mIr9xFS5ve9EpGtM98r++xnLAIR5I1HX/YKTk0A/dh/mzOx/k0jAfdAQPPKwY5rtrib4OmGJT3qMDtOWGqyqK3sx/VYSPOZsbq6x00bsVQScEHUU4DmdNNu0iPeutneNA=="
+  },
+  "mongoDb": {
+    "username": "cookandchefindia",
+    "password": "IcferAaxXakxCbQb",
+    "dbUrl": "mongodb+srv://cookandchefindia:IcferAaxXakxCbQb@cnc-staging.rn0fypu.mongodb.net/cnc-staging?retryWrites=true&w=majority"
+  },
+  "weavy": {
+    "baseUrl": "https://009c9ffe18594d13bacdea6dd57d3b41.weavy.io",
+    "authtoken": "wys_9Xq10KMQQrFJXzhhNO8QTUuz49pBcB1NN1tQ"
+  },
+  "razorpay": {
+    "key_id": "rzp_test_Wd4HQU3VOXj0xB",
+    "key_secret": "oUW8QxZO79gb2fM61Gm3gXcA"
+  },
+  "firebase": {
+    "cert": {
+      "type": "service_account",
+      "project_id": "cookandchef-new-app",
+      "private_key_id": "e1ab6bf22f2a05bb4ef5bb720c7a7c79090301b2",
+      "private_key": "-----BEGIN PRIVATE KEY-----\nMIIEvAIBADANBgkqhkiG9w0BAQEFAASCBKYwggSiAgEAAoIBAQC6/8SHANZ++0gc\nC1t4Lnxr+x99oLtupwJP3DJdEdUKaKxCbGbyPwSFQ+Cs10T2tU+y0D+0Vlriz+yQ\nZSz6/HYRek97VWxQbIE4ParjgU39GoiGr/eHPHPwvg+kP7fawAGoUCX6StORo+Mm\n47I/lljaeqgMHdYw7o1o/p5kdMU5qNBWBnZDmg8PcLGEd4gnw5Ddw6AFRYVvXxY0\nUy50TADWHFK244ZwcY5djzs+2kyeyhk1qnUEBpofNj2p3hFlzpWeN1Jw4dyacxRb\nmxn2lU+siljGRgcvxdzITid8Zo9ZA9h31bksOmELkvMxkSU9hrn3RA18lgGESyrs\nA4Jt5SwNAgMBAAECggEAJQRc9cGRdGUPPvfzlSyUljaJow+Gku6uCzuCX8CYLN2Q\nHf0B+vnFDhFkACsD/JdjLblCJxOCHcx9no7cstl3kNmmsroz/Q6hnM2+Tpdp5gzS\n0mCyjfuGUvV4uLGhVkT0fwpQnkWiMH4iCPCBeEttjuBBdFaSsDCE3zAqECY6ZYGB\nrxguCOCHAn1nB0BYxiGYs9CezF6X9qEURyZnPAeRidcfh9oBDIfx6bcm54kqgluJ\nA2jSvlo2neFkM36O+9emwKAI3z2vht/yWzvW0k/vmGgkakpO1Rpw5hnScwlzNkg/\nMWNVkOh83FlNFevTU8dq3Y1vcjbk42Mlwim0OAmcGQKBgQDwDtlKIwBoZl3NJ8Jg\nVOvMeYM22sNvyZmaX3YpjZ8R2+3zNjmJl1oAh+PJQRuf09LJe16orJZZmDA0BeFh\ntu919dFx1RVPhmGpFDHVU51waenKEYxK8Yxb7l7N+KIVw5XPSGuUw4oz50kWpxqq\nJBUEUPNserKEKNvw2vB479HxVQKBgQDHauGDiwN9oCGvufuOoewt4Cm5wCKUn9sL\nM42XbdwWwXSoyACzdKgS9aaKDoQzVheShlPnyVzENAvpWZQ4fQdMScclWQHFOOZp\nWzqjXctcheCPShbjFYju5WAtMUQjFHTRzpv+T0z9DQo6pIqnIZ5fRj1FXqV2URvI\niD3+Nx0v2QKBgEIEY19PBuKvHCa6Q2tIj1w5IouoV8zbTUG19QHyb4dyyxpylBox\npE+3Dz6eiCFJGJPOOLb8V5CmGMOFxnif3XS8OHAsoGKxWxQreJTpHMf4aJHoh4No\nsCfsAuhz8uc3VXCewu8zY0No3KG9LMkTiTAZrwfrKkLMFchD/ZPUqBDNAoGAPp1+\nxfEGXZHEQgshw71wDU+PinWb5hLzkmbTlLK4IqUH3l8+aRq+E4XyjvLT69KigC2R\ndvwxFqJJAzJPahVID1ozH7T861JcdsRgex9eVWTsB9H5sb/3SRvYwRfxDxrDO4Wm\nUYnQ4LwRdCxqJORXeA7z+i4nwijhkmvFG2du0LECgYAMvDxq9U9B90HDUqgzniGH\nYx6dJcJb+TN9PlJZeVtNcptMxtibcUvFn+3RcN3NK4HrMkkb7HyOZE0FxnnJzYzP\n5nCygc/L86SajleBq7Hw4ubGo5fLTKMtHm7TU5zTtJW6Wa0U8VWXf0KD3uzdG7FH\nHN85ijVsi6xdmm/PVtuIww==\n-----END PRIVATE KEY-----\n",
+      "client_email": "firebase-adminsdk-qh3sv@cookandchef-new-app.iam.gserviceaccount.com",
+      "client_id": "118228135091907964282",
+      "auth_uri": "https://accounts.google.com/o/oauth2/auth",
+      "token_uri": "https://oauth2.googleapis.com/token",
+      "auth_provider_x509_cert_url": "https://www.googleapis.com/oauth2/v1/certs",
+      "client_x509_cert_url": "https://www.googleapis.com/robot/v1/metadata/x509/firebase-adminsdk-qh3sv%40cookandchef-new-app.iam.gserviceaccount.com",
+      "universe_domain": "googleapis.com"
+    }
+  },
+  "privateKey": "jbvvcxtxrtxd65d6ygyvhvhgcrzxdfchgvvhgvgcvcf65r65ty87y87hgytd43sdcccrrdtrjhvfctfcf"
+}
