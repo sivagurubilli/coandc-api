@@ -1,44 +1,21 @@
-// const mongoose = require('mongoose');
-// const { mongoDb } = require("./config");
+import mongoose from 'mongoose';
 
-// exports.databaseConnection = async () => {
-//     console.log({ dbUrl: mongoDb.dbUrl })
-//     await mongoose.connect(mongoDb.dbUrl, {
-//         useNewUrlParser: true,
-//         useUnifiedTopology: true,
-//         useCreateIndex: true,
-//         useFindAndModify: false
-//     })
-// }
+const databaseConnection = async () => {
+  await mongoose.connect(process.env.MONGO_URL);
 
-const mongoose = require('mongoose');
-const { mongoDb } = require("./config");
+  const db = mongoose.connection;
 
-exports.databaseConnection = async () => {
-    console.log({ dbUrl: mongoDb.dbUrl });
+  db.on('error', (err) => {
+    console.error('MongoDB connection error:', err);
+  });
 
-    await mongoose.connect(mongoDb.dbUrl, {
-        useNewUrlParser: true,
-        useUnifiedTopology: true,
-        useCreateIndex: true,
-        useFindAndModify: false,
-        poolSize: 10
-    });
+  db.once('open', () => {
+    console.log('MongoDB connected successfully');
+  });
 
-    const db = mongoose.connection;
-
-    db.on('error', (err) => {
-        console.error('MongoDB connection error:', err);
-    });
-
-    db.once('open', () => {
-        console.log('MongoDB connected successfully');
-    });
-
-    db.on('disconnected', () => {
-        console.log('MongoDB disconnected');
-    });
+  db.on('disconnected', () => {
+    console.log('MongoDB disconnected');
+  });
 };
 
-
-
+export default databaseConnection;
